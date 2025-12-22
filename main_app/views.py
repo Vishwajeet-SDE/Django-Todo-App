@@ -40,3 +40,5 @@ def task_delete(request, pk):
         return redirect(reverse('todo:task_list'))
     return render(request, 'todo/task_confirm_delete.html', {'task':task})
     
+def task_toggle_complete(request, pk):
+    return
