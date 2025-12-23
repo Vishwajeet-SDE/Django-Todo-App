@@ -40,5 +40,8 @@ def task_delete(request, pk):
         return redirect(reverse('todo:task_list'))
     return render(request, 'todo/task_confirm_delete.html', {'task':task})
     
+<<<<<<< Updated upstream
 def task_toggle_complete(request, pk):
     return
+=======
+>>>>>>> Stashed changes
